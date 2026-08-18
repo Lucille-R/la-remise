@@ -15,7 +15,7 @@ L'association fonctionne avec deux salariées et une trentaine de bénévoles. E
 - [x] Liste des décisions (.md)
 - [x] Schéma entité-association (.png)
 - [x] Arbre des dépendances (.png)
-- [ ] Schéma relationnel (.md)
+- [x] Schéma relationnel (.md)
 ### La base de données
 - [ ] Fichier migration_up.sql
 - [ ] Fichier migration_down.sql
