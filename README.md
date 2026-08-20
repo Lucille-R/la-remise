@@ -21,7 +21,7 @@ L'association fonctionne avec deux salariées et une trentaine de bénévoles. E
 ### La base de données
 - [x] Fichier migration_up.sql
 - [x] Fichier migration_down.sql
-- [ ] Fichier seed.sql avec : au minimum 8 catégories, 10 personnes, 12 bénévoles, 40 objets à différents statuts, 15 réparations, 10 ventes, 4 ateliers et leurs inscriptions.
+- [x] Fichier seed.sql avec : au minimum 8 catégories, 10 personnes, 12 bénévoles, 40 objets à différents statuts, 15 réparations, 10 ventes, 4 ateliers et leurs inscriptions.
 - [ ] Fichier queries.sql avec : les 10 questions de la section 04, une requête chacune, commentée.
 
 
