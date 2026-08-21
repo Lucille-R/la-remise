@@ -1,0 +1,19 @@
+# Lancer :   docker compose up -d
+# Arrêter :  docker compose down        (les données persistent dans le volume)
+# Reset :    docker compose down -v     (supprime le volume → le dump est rechargé au prochain up)
+services:
+  db:
+    image: postgres:16
+    container_name: la-remise-db
+    environment:
+      POSTGRES_USER: lr
+      POSTGRES_PASSWORD: remise
+      POSTGRES_DB: la-remise
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./migration_up.sql:/docker-entrypoint-initdb.d/laremise.sql
+      - la-remise-data:/var/lib/postgresql/data
+
+volumes:
+  la-remise-data:
