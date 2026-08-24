@@ -85,7 +85,6 @@ docker compose up -d
 
 
 ## 💻 Utilisation
-## 💻 Utilisation
 
 Une fois la base initialisée et le seed chargé, les requêtes répondant aux besoins de La Remise (section 04 du cahier des charges) sont disponibles dans `queries.sql` :
 
